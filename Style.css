@@ -1,0 +1,188 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #dff3f3;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/*-----------------------------------------Estilos para el larchivo index.php*/
+
+
+main .Image-container{
+    margin: 80px 0 20px 0;
+    text-align: center;
+}
+
+main .container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+main .container .form-container{
+    margin: 50px 50px 50px 100px;
+}
+
+main .container .form-container fieldset{
+    background-color: #a3dbdd;
+    border-radius: 20px;    
+    border: 2px solid #091111;
+    box-shadow: 0 5px 8px 3px #1d1d1f47;
+    margin: 10px;
+    padding: 15px;
+}
+
+main .container .form-container fieldset .text-form{
+    margin: 10px;
+    padding: 5px;
+    border-radius: 15px;
+    border: 1px solid #cecfcf;
+    box-shadow: 2px 4px 8px 0 #1a1b1f47;
+    text-align: center;
+    background-color: #f5f5f0;
+}
+
+
+main .container .form-container fieldset .button{
+    margin: 10px;
+    padding: 5px;
+    border-radius: 15px;
+    border: none;
+    background-color: #dcdcdc;
+    box-shadow: 2px 4px 8px 0 #1a1b1f47;
+    text-align: center;
+    width: 170px;
+}
+
+main .container .form-container fieldset .button:hover{
+    cursor: pointer;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 15px;
+    border: none;
+    background-color: #b6b4b4;
+    box-shadow: 2px 0 2px 0 #1a1b1f47;
+    text-align: center;
+    width: 180px;
+    font-family: 'Time New Roman', 'Georgia';
+    font-size: 15px;
+}
+
+main .container .table-container{
+    margin: 50px 0 0 0;
+}
+
+main .container .table-container .table{
+    padding: 10px;
+    border: 2px solid #091111;
+    border-radius: 20px;
+    box-shadow: 0 5px 8px 3px #1d1d1f47;
+}
+
+main .container .table-container .table .container-head{
+    background-color: #7c7c7c;
+}
+
+main .container .table-container .table .container-head tr th{
+    padding: 5px;
+}
+
+main .container .table-container .table .container-body tr th{
+    padding: 5px;
+    margin: 5px;
+}
+
+main .container .table-container .table .container-body .btn-edit{
+    padding: 5px;
+    color: #000000;
+    background-color: #1e90ff;
+    border-radius: 10px;
+}
+
+main .container .table-container .table .container-body .btn-delete{
+    padding: 5px;
+    color: #02020e;
+    background-color: #e40f39;
+    border-radius: 10px;
+}
+
+footer{
+    background-color: #d3ebeb;
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    align-items: center;
+    font-size: 15px;
+}
+
+footer ul{
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+footer ul li{
+    padding: 5px; 
+}
+
+footer ul li a{
+    color: #03030c;
+}
+
+
+/*------------------------------------Estilos para actualizar.php*/
+
+
+main .container-actualizar{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    margin: 100px 150px 0 10px;
+}
+
+main .container-actualizar .text-form{
+    margin: 10px;
+    padding: 5px;
+    border-radius: 15px;
+    border: 1px solid #f3f3f3;
+    box-shadow: 2px 4px 8px 0 #1a1b1f47;
+    text-align: center;
+    outline: none;
+    background-color: #f5f5f0;
+}
+
+main .container-actualizar .button{
+    margin: 10px;
+    padding: 5px;
+    border-radius: 15px;
+    border: none;
+    background-color: #dcdcdc;
+    box-shadow: 2px 4px 8px 0 #1a1b1f47;
+    text-align: center;
+    width: 170px;
+}
+
+main .container-actualizar .button:hover{
+    cursor: pointer;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 15px;
+    border: none;
+    background-color: #b6b4b4;
+    box-shadow: 2px 0 2px 0 #1a1b1f47;
+    text-align: center;
+    width: 180px;
+    font-family: 'Time New Roman', 'Georgia';
+    font-size: 15px;
+}

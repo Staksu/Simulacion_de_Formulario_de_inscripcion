@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #dff3f3;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+/*-------------------------------------Diseño de la página de los terminos y condiciones*/
+
+
+.terminos{
+    margin: 0;
+    padding: 30px;
+    background-color: #6495ED;
+}
+
+p{
+    margin: 50px;
+}
+
+
+/*-------------------------------------Diseño de la pagína del desarrollador*/
+
+
+main .developer{
+    margin: 100px 0 0 0;
+    padding: 50px;
+    text-align: center;
+    font-size: 25px;
+}
+
+
+
+/*-------------------------------------Diseño de la página Nosotros*/
+
+
+main .nosotros{
+    margin: 0;
+    padding: 50px;
+    text-align: left;
+    font-size: 25px;
+}
+
+main .nosotros p{
+    font-size: 18px;
+}
